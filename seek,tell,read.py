@@ -1,0 +1,7 @@
+f=open("rai.txt","r")
+f.seek(2)
+f1=f.read()
+print(f1)
+print(f.tell())
+# print(f2)
+f.close()
